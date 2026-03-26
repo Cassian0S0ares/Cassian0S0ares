@@ -34,17 +34,27 @@ Sou Técnico em Desenvolvimento de Sistemas pelo SENAI e atualmente curso gradua
 * **Site DG Cursos:** Plataforma completa desenvolvida para a empresa DG, focada na venda e gestão de cursos online.
 ---
 ### 📊 Estatísticas do GitHub
+
 <div align="center">
- 
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Cassian0S0ares&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cassian0S0ares&layout=compact&langs_count=7&theme=tokyonight"/>
+
+  <img 
+    height="180em" 
+    src="https://github-readme-stats-sigma-five.vercel.app/api?username=Cassian0S0ares&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"
+  />
+
+  <img 
+    height="180em" 
+    src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Cassian0S0ares&layout=compact&langs_count=7&theme=tokyonight"
+  />
+
 </div>
+
 <br>
+
 <div align="center">
   <img 
     width="70%" 
-    src="https://streak-stats.demolab.com?user=Cassian0S0ares&theme=tokyonight&hide_border=true&ring=F472B6&fire=F472B6&currStreakLabel=F472B6&sideLabels=E5E7EB&dates=9CA3AF" 
+    src="https://streak-stats.demolab.com?user=Cassian0S0ares&theme=tokyonight&hide_border=true"
   />
 </div>
 ---
