@@ -39,10 +39,9 @@ Sou Técnico em Desenvolvimento de Sistemas pelo SENAI e atualmente curso gradua
 
   <img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Cassian0S0ares&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
 
-  <img width="65%" src="https://streak-stats.demolab.com?user=Cassian0S0ares&theme=tokyonight&hide_border=true"/>
+  <img height="170em" src="https://streak-stats.demolab.com?user=Cassian0S0ares&theme=tokyonight&hide_border=true"/>
 
 </div>
-
 
 
 
