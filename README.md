@@ -1,63 +1,81 @@
-# Olá, eu sou o Cassiano Soares! 👋
-### Full Stack Developer Junior | Graduando em ADS
-Sou Técnico em Desenvolvimento de Sistemas pelo SENAI e atualmente curso graduação em Análise e Desenvolvimento de Sistemas. Atuo como desenvolvedor júnior com foco em criar soluções eficientes e escaláveis, unindo uma base sólida em lógica de programação com experiência prática em todo o ciclo de desenvolvimento de software.
-- 🔭 Atualmente trabalhando em projetos Full Stack e automações.
-- 🌱 Aprofundando conhecimentos em Arquitetura de Sistemas e Cloud Computing.
-- 💬 Pergunte-me sobre: **JavaScript, Python, PHP e APIs.**
-- 📫 Como me encontrar: [LinkedIn](https://www.linkedin.com/in/cassiano-brandes-soares/) | cassiano.soares156@gmail.com
 ---
-### 🛠 Tecnologias e Ferramentas
-#### 🎨 Frontend
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![ReactFlow](https://img.shields.io/badge/React_Flow-20232A?style=for-the-badge&logo=react-flow&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
----
-#### ⚙️ Backend
-![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![PHP](https://img.shields.io/badge/php-%23777BB1.svg?style=for-the-badge&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
----
-#### 🗄 Banco de Dados
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
----
-#### 🧰 Ferramentas & DevOps
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
----
-### 📂 Projetos em Destaque
-* **Chatbot com IA (Low-Code):** Sistema configurado por blocos intuitivos, permitindo que pessoas sem conhecimento técnico criem fluxos de atendimento inteligentes.
-* **Site DG Cursos:** Plataforma completa desenvolvida para a empresa DG, focada na venda e gestão de cursos online.
----
-### 📊 Estatísticas do GitHub
+
+## 💿 < Cassiano.exe />
 
 <div align="center">
 
-  <img 
-    height="180em" 
-    src="https://github-readme-stats-sigma-five.vercel.app/api?username=Cassian0S0ares&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"
-  />
-
-  <img 
-    height="180em" 
-    src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Cassian0S0ares&layout=compact&langs_count=7&theme=tokyonight"
-  />
+<img src="https://readme-typing-svg.herokuapp.com/?color=F472B6&size=25&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;React+%7C+Node+%7C+Laravel;Always+learning+new+things..." />
 
 </div>
 
-<br>
+---
+
+## 📊 < system.stats />
 
 <div align="center">
-  <img 
-    width="70%" 
-    src="https://streak-stats.demolab.com?user=Cassian0S0ares&theme=tokyonight&hide_border=true"
-  />
+
+<img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Cassian0S0ares&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Cassian0S0ares&layout=compact&langs_count=6&theme=tokyonight&hide_border=true"/>
+
 </div>
+
+<div align="center">
+
+<img width="60%" src="https://streak-stats.demolab.com?user=Cassian0S0ares&theme=tokyonight&hide_border=true"/>
+
+</div>
+
 ---
-### 🎓 Formação
-* **Graduação em Análise e Desenvolvimento de Sistemas** – Faculdade SENAI (Em andamento)
-* **Técnico em Desenvolvimento de Sistemas** – SENAI
+
+## 🧠 < tech.stack />
+
+<div align="center">
+
+💻 **Frontend**  
+<img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind" />
+
+⚙️ **Backend**  
+<img src="https://skillicons.dev/icons?i=nodejs,php,laravel,python" />
+
+🗄 **Database**  
+<img src="https://skillicons.dev/icons?i=mysql" />
+
+🛠 **Tools**  
+<img src="https://skillicons.dev/icons?i=git,github,vscode" />
+
+</div>
+
+---
+
+## 🚀 < featured.projects />
+
+🔹 **Chatbot com IA (Low-Code)**  
+Sistema visual baseado em blocos para criação de fluxos inteligentes sem necessidade de programação.
+
+🔹 **Site DG Cursos**  
+Plataforma completa para venda e gestão de cursos online.
+
+---
+
+## 🎓 < education.log />
+
+📚 **Análise e Desenvolvimento de Sistemas**  
+🎓 Faculdade SENAI *(em andamento)*  
+
+📚 **Técnico em Desenvolvimento de Sistemas**  
+🏫 SENAI  
+
+---
+
+## 🌐 < connect.me />
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cassiano-brandes-soares/)
+
+📧 **cassiano.soares156@gmail.com**
+
+</div>
+
+---
