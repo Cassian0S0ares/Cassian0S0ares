@@ -44,13 +44,27 @@ Sou Técnico em Desenvolvimento de Sistemas pelo SENAI e atualmente curso gradua
 
 ### 📊 Estatísticas do GitHub
 
+
 <div align="center">
-  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Cassian0S0ares&show_icons=true&theme=tokyonight&include_all_commits=true" />
-  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Cassian0S0ares&layout=compact&theme=tokyonight&langs_count=8" />
+
+  <img 
+    height="180em" 
+    src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Cassian0S0ares&show_icons=true&theme=tokyonight&include_all_commits=true&hide_border=true&title_color=38BDF8&icon_color=38BDF8" 
+  />
+
+  <img 
+    height="180em" 
+    src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Cassian0S0ares&layout=compact&theme=tokyonight&hide_border=true&title_color=38BDF8" 
+  />
+
 </div>
 
 <div align="center">
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=Cassian0S0ares&theme=tokyonight" />
+
+  <img 
+    src="https://streak-stats.demolab.com?user=Cassian0S0ares&theme=tokyonight&hide_border=true&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" 
+  />
+
 </div>
 ---
 
