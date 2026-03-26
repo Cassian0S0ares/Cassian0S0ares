@@ -48,7 +48,7 @@ Sou Técnico em Desenvolvimento de Sistemas pelo SENAI e atualmente curso gradua
   <img width="65%" src="https://streak-stats.demolab.com?user=Cassian0S0ares&theme=tokyonight&hide_border=true"/>
 
 </div>
----
+
 
 ### 🎓 Formação
 
