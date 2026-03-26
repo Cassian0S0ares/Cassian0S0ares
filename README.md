@@ -35,14 +35,10 @@ Sou Técnico em Desenvolvimento de Sistemas pelo SENAI e atualmente curso gradua
 ---
 ### 📊 Estatísticas do GitHub
 <div align="center">
-  <img 
-    width="49%" 
-    src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Cassian0S0ares&show_icons=true&theme=tokyonight&hide_border=true&title_color=F472B6&icon_color=F472B6&text_color=E5E7EB" 
-  />
-  <img 
-    width="49%" 
-    src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Cassian0S0ares&layout=compact&theme=tokyonight&hide_border=true&title_color=F472B6&text_color=E5E7EB" 
-  />
+ 
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Cassian0S0ares&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cassian0S0ares&layout=compact&langs_count=7&theme=tokyonight"/>
 </div>
 <br>
 <div align="center">
