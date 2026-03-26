@@ -1,16 +1,50 @@
-## Hi there 👋
+# Olá, eu sou o Cassiano Soares! 👋
 
-<!--
-**Cassian0S0ares/Cassian0S0ares** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Full Stack Developer Junior | Graduando em ADS
 
-Here are some ideas to get you started:
+Sou Técnico em Desenvolvimento de Sistemas pelo SENAI e atualmente curso graduação em Análise e Desenvolvimento de Sistemas. Atuo como desenvolvedor júnior com foco em criar soluções eficientes e escaláveis, unindo uma base sólida em lógica de programação com experiência prática em todo o ciclo de desenvolvimento de software.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🔭 Atualmente trabalhando em projetos Full Stack e automações.
+- 🌱 Aprofundando conhecimentos em Arquitetura de Sistemas e Cloud Computing.
+- 💬 Pergunte-me sobre: **JavaScript, Python, PHP e APIs.**
+- 📫 Como me encontrar: [LinkedIn](https://www.linkedin.com/in/cassiano-brandes-soares/) | cassiano.soares156@gmail.com
+
+---
+
+### 🛠 Tecnologias e Ferramentas
+
+**Linguagens & Frameworks:**
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![PHP](https://img.shields.io/badge/php-%23777BB1.svg?style=for-the-badge&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+
+**Backend & Infra:**
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+
+---
+
+### 📂 Projetos em Destaque
+
+* **Chatbot com IA (Low-Code):** Sistema configurado por blocos intuitivos, permitindo que pessoas sem conhecimento técnico criem fluxos de atendimento inteligentes.
+* **Site DG Cursos:** Plataforma completa desenvolvida para a empresa DG, focada na venda e gestão de cursos online.
+
+---
+
+### 📊 Estatísticas do GitHub
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SEU-USUARIO-AQUI&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU-USUARIO-AQUI&layout=compact&langs_count=7&theme=tokyonight"/>
+</div>
+
+---
+
+### 🎓 Formação
+* **Graduação em Análise e Desenvolvimento de Sistemas** – Faculdade SENAI (Em andamento)
+* **Técnico em Desenvolvimento de Sistemas** – SENAI
