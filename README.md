@@ -5,6 +5,8 @@
 Sou Técnico em Desenvolvimento de Sistemas pelo SENAI e atualmente curso graduação em Análise e Desenvolvimento de Sistemas. Atuo como desenvolvedor júnior com foco em criar soluções eficientes e escaláveis, unindo uma base sólida em lógica de programação com experiência prática em todo o ciclo de desenvolvimento de software.
 
 - 🔭 Atualmente trabalhando em projetos Full Stack e automações.
+- 🌱 Aprofundando conhecimentos em Arquitetura de Sistemas e Cloud Computing.
+- 💬 Pergunte-me sobre: **JavaScript, Python, PHP e APIs.**
 - 📫 Como me encontrar: [LinkedIn](https://www.linkedin.com/in/cassiano-brandes-soares/) | cassiano.soares156@gmail.com
 
 ---
@@ -43,8 +45,12 @@ Sou Técnico em Desenvolvimento de Sistemas pelo SENAI e atualmente curso gradua
 ### 📊 Estatísticas do GitHub
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Cassian0S0ares&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cassian0S0ares&layout=compact&langs_count=7&theme=tokyonight&hide_border=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Cassian0S0ares&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cassian0S0ares&layout=compact&theme=tokyonight&langs_count=8" />
+</div>
+
+<div align="center">
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=Cassian0S0ares&theme=tokyonight" />
 </div>
 
 ---
