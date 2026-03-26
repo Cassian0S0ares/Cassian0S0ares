@@ -43,18 +43,15 @@ Sou Técnico em Desenvolvimento de Sistemas pelo SENAI e atualmente curso gradua
 
 </div>
 ---
+
 ### 🎓 Formação
 
-<div align="left">
-
-**🎓 Graduação em Análise e Desenvolvimento de Sistemas**  
+🎓 **Análise e Desenvolvimento de Sistemas**  
 📍 Faculdade SENAI  
-📅 Em andamento  
+📅 *Em andamento*  
 
 <br>
 
-**💻 Técnico em Desenvolvimento de Sistemas**  
+💻 **Técnico em Desenvolvimento de Sistemas**  
 📍 SENAI  
-📅 Concluído  
-
-</div>
+📅 *Concluído*  
