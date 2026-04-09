@@ -7,7 +7,7 @@ Sou Técnico em Desenvolvimento de Sistemas pelo SENAI e atualmente curso gradua
 - 🔭 Atualmente trabalhando em projetos Full Stack e automações  
 - 🌱 Aprofundando conhecimentos em Arquitetura de Sistemas e Cloud Computing  
 - 💬 Pergunte-me sobre: **JavaScript, Python, PHP e APIs**  
-- 📫 Como me encontrar: [LinkedIn](https://www.linkedin.com/in/cassiano-brandes-soares/) | cassiano.soares156@gmail.com | Portifólio https://cassian0s0ares.github.io/
+- 📫 Como me encontrar: [LinkedIn](https://www.linkedin.com/in/cassiano-brandes-soares/) | cassiano.soares156@gmail.com | [Portifólio](https://cassian0s0ares.github.io/)
 
 ---
 
