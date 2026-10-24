@@ -1,12 +1,12 @@
 <!-- Banner -->
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:7aa2f7,100:bb9af7&height=200&section=header&text=Cassiano%20Soares&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Desenvolvedor%20J%C3%BAnior%20%7C%20Estagi%C3%A1rio%20na%20IMEX%20Solutions%20%7C%20ADS&descAlignY=58&descSize=17&animation=fadeIn" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:7aa2f7,100:bb9af7&height=200&section=header&text=Cassiano%20Soares&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Desenvolvedor%20Full%20Stack%20%E2%80%A2%20Infraestrutura%20%E2%80%A2%20IA&descAlignY=58&descSize=18&animation=fadeIn" />
 </p>
 
 <!-- Typing -->
 <p align="center">
   <a href="https://github.com/Cassian0S0ares">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=800&color=7AA2F7&center=true&vCenter=true&width=620&lines=Ol%C3%A1%2C+eu+sou+o+Cassiano!+%F0%9F%91%8B;Desenvolvedor+Full+Stack+J%C3%BAnior;Django+%7C+Laravel+%7C+React+%7C+Node.js;Infraestrutura+VPS+e+Integra%C3%A7%C3%A3o+com+IA" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=7AA2F7&center=true&vCenter=true&width=620&lines=Desenvolvedor+Full+Stack+J%C3%BAnior;Sistemas+web+e+automa%C3%A7%C3%A3o+de+processos;Python+%E2%80%A2+Django+%E2%80%A2+Laravel+%E2%80%A2+React;Infraestrutura+e+integra%C3%A7%C3%A3o+com+IA" alt="Typing SVG" />
   </a>
 </p>
 
@@ -15,7 +15,7 @@
   <a href="https://www.linkedin.com/in/cassiano-brandes-soares/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:cassiano.soares156@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://cassian0s0ares.github.io/"><img src="https://img.shields.io/badge/Portf%C3%B3lio-7aa2f7?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
-  <img src="https://komarev.com/ghpvc/?username=Cassian0S0ares&style=for-the-badge&color=bb9af7&label=VISITAS" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=Cassian0S0ares.Cassian0S0ares&left_text=Visitas&left_color=%231a1b27&right_color=%23bb9af7" height="28" />
 </p>
 
 ---
@@ -24,13 +24,15 @@
 
 <img align="right" width="320" src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/images/coding.gif" alt="coding" />
 
-Sou **Técnico em Desenvolvimento de Sistemas** pelo SENAI Cruzeiro e curso **Análise e Desenvolvimento de Sistemas** na Faculdade SENAI Taubaté. Hoje sou **estagiário de desenvolvimento na IMEX Solutions**, onde desenvolvo sistemas web, cuido da infraestrutura de servidores e lidero a integração de inteligência artificial nos processos internos.
+Sou **Técnico em Desenvolvimento de Sistemas** pelo SENAI Cruzeiro e graduando em **Análise e Desenvolvimento de Sistemas** pela Faculdade SENAI Taubaté. Atualmente atuo como **estagiário de desenvolvimento na IMEX Solutions**, com foco na digitalização de processos, no desenvolvimento de aplicações web e na administração da infraestrutura de servidores.
 
-- 🔭 Desenvolvendo sistemas **Django**, mantendo um **ERP em React** e administrando uma **VPS com 5 sites em produção**
-- 🤖 Integrando **IA** a processos reais de negócio
-- 🌱 Aprofundando em **Arquitetura de Sistemas**, **Cloud** e **Redes**
-- 💬 Pergunte-me sobre **Python, JavaScript, PHP, APIs e Linux**
-- 🌎 Português nativo · Inglês avançado
+Tenho experiência prática em todo o ciclo de desenvolvimento de software, da modelagem de dados ao deploy em produção, e atuo na integração de inteligência artificial a processos corporativos.
+
+- 🔭 Atualmente: sistemas em Django, ERP em React e **VPS Linux com 5 sites em produção**
+- 🤖 Em desenvolvimento: integração de **IA** a processos de negócio
+- 🌱 Em estudo: **arquitetura de sistemas**, **computação em nuvem** e **redes**
+- 💬 Áreas de interesse: **Python, JavaScript, PHP, APIs e Linux**
+- 🌎 Idiomas: português (nativo) e inglês (avançado)
 
 <br clear="right"/>
 
@@ -43,12 +45,12 @@ Sou **Técnico em Desenvolvimento de Sistemas** pelo SENAI Cruzeiro e curso **An
     <td width="50%" valign="top">
       <h3>🏭 IMEX Solutions</h3>
       <img src="https://img.shields.io/badge/Est%C3%A1gio-Jun_2026_→_Atual-9ece6a?style=flat-square" /><br/><br/>
-      Sistemas web para gestão de válvulas e propostas comerciais em <b>Django</b> (modelagem de dados, CRUD e geração automática de folhas de dados técnicas em PDF), manutenção do <b>ERP em React</b>, administração da <b>VPS</b> com 5 sites em produção, integração de <b>IA</b> e suporte técnico aos usuários.
+      Desenvolvimento e manutenção de sistemas web para <b>gestão de válvulas industriais e propostas comerciais</b> em Django, incluindo modelagem de dados, CRUD e geração automática de folhas de dados técnicas em PDF. Manutenção do <b>ERP em React</b>, administração da <b>VPS</b> corporativa, integração de <b>IA</b> aos processos internos e suporte técnico aos usuários.
     </td>
     <td width="50%" valign="top">
       <h3>🎓 DG Consultoria</h3>
       <img src="https://img.shields.io/badge/Freelancer-Jan_→_Mar_2026-7aa2f7?style=flat-square" /><br/><br/>
-      Projeto em equipe com colegas do curso técnico: landing page com <b>login</b>, <b>confirmação de e-mail</b> e <b>venda de cursos online</b> usando Laravel, MySQL, Stripe, HTML e CSS.
+      Desenvolvimento, em equipe, de uma plataforma de <b>venda de cursos online</b> com autenticação, confirmação de e-mail e pagamentos via <b>Stripe</b>, utilizando Laravel, MySQL, HTML e CSS.
     </td>
   </tr>
 </table>
@@ -91,8 +93,8 @@ Sou **Técnico em Desenvolvimento de Sistemas** pelo SENAI Cruzeiro e curso **An
 <table align="center">
   <tr>
     <td width="50%" valign="top">
-      <h3>⚙️ Sistema de Gestão de Válvulas</h3>
-      <p>Sistema corporativo para cadastro de válvulas industriais e propostas comerciais, com geração automática de folhas de dados técnicas em PDF e integração com IA.</p>
+      <h3>⚙️ Gestão de Válvulas Industriais</h3>
+      <p>Sistema corporativo que substituiu o controle em planilhas, abrangendo cadastro técnico de válvulas, propostas comerciais e geração automática de folhas de dados em PDF, com apoio de inteligência artificial.</p>
       <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" />
       <img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" />
       <img src="https://img.shields.io/badge/IA-bb9af7?style=flat-square" />
@@ -100,7 +102,7 @@ Sou **Técnico em Desenvolvimento de Sistemas** pelo SENAI Cruzeiro e curso **An
     </td>
     <td width="50%" valign="top">
       <h3>🤖 Chatbot com IA (Low-Code)</h3>
-      <p>Sistema configurado por blocos intuitivos que permite a pessoas sem conhecimento técnico criar fluxos de atendimento inteligentes. Base do meu TCC no curso técnico.</p>
+      <p>Plataforma que permite a criação de fluxos de atendimento inteligentes por meio de blocos visuais, sem necessidade de conhecimento técnico. Desenvolvida como Trabalho de Conclusão do Curso Técnico.</p>
       <img src="https://img.shields.io/badge/React_Flow-1a1b27?style=flat-square&logo=react&logoColor=61DAFB" />
       <img src="https://img.shields.io/badge/IA-bb9af7?style=flat-square" />
       <img src="https://img.shields.io/badge/Low--Code-7aa2f7?style=flat-square" />
@@ -108,8 +110,8 @@ Sou **Técnico em Desenvolvimento de Sistemas** pelo SENAI Cruzeiro e curso **An
   </tr>
   <tr>
     <td colspan="2" valign="top">
-      <h3>🎓 Site DG Cursos</h3>
-      <p>Plataforma de venda e gestão de cursos online para a DG Consultoria, com autenticação, confirmação de e-mail e pagamentos via Stripe.</p>
+      <h3>🎓 Plataforma DG Cursos</h3>
+      <p>Plataforma de comercialização e gestão de cursos online desenvolvida para a DG Consultoria, com autenticação de usuários, confirmação de e-mail e pagamentos via Stripe.</p>
       <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" />
       <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
       <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" />
@@ -135,8 +137,8 @@ Sou **Técnico em Desenvolvimento de Sistemas** pelo SENAI Cruzeiro e curso **An
 ## 📊 Estatísticas do GitHub
 
 <div align="center">
-  <img height="180" src="https://raw.githubusercontent.com/Cassian0S0ares/Cassian0S0ares/main/profile-summary-card-output/tokyonight/3-stats.svg" />
-  <img height="180" src="https://raw.githubusercontent.com/Cassian0S0ares/Cassian0S0ares/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" />
+  <img height="180" src="./profile-summary-card-output/tokyonight/3-stats.svg" />
+  <img height="180" src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" />
 </div>
 
 <div align="center">
@@ -144,7 +146,7 @@ Sou **Técnico em Desenvolvimento de Sistemas** pelo SENAI Cruzeiro e curso **An
 </div>
 
 <div align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/Cassian0S0ares/Cassian0S0ares/main/profile-summary-card-output/tokyonight/0-profile-details.svg" />
+  <img width="100%" src="./profile-summary-card-output/tokyonight/0-profile-details.svg" />
 </div>
 
 <div align="center">
@@ -169,6 +171,8 @@ Sou **Técnico em Desenvolvimento de Sistemas** pelo SENAI Cruzeiro e curso **An
     </td>
   </tr>
 </table>
+
+<p align="center"><i>Obrigado pela visita. Fico à disposição para oportunidades e parcerias.</i></p>
 
 <!-- Footer -->
 <p align="center">
