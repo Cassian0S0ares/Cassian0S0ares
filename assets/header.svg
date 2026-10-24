@@ -11,8 +11,8 @@
     .b { fill: #7aa2f7; } .v { fill: #bb9af7; } .o { fill: #e0af68; }
   </style>
 
-  <!-- relógio invisível que reinicia a animação a cada 12s -->
-  <rect width="0" height="0"><animate id="cycle" attributeName="x" from="0" to="0" dur="12s" begin="0s;cycle.end"/></rect>
+  <!-- relógio invisível que dispara a animação uma única vez -->
+  <rect width="0" height="0"><animate id="cycle" attributeName="x" from="0" to="0" dur="12s" begin="0s"/></rect>
 
   <rect x="1" y="1" width="998" height="298" rx="14" fill="#1a1b26" stroke="url(#edge)" stroke-width="2"/>
   <path d="M1 15 a14 14 0 0 1 14 -14 h970 a14 14 0 0 1 14 14 v27 H1 z" fill="#16161e"/>
