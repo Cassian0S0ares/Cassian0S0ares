@@ -6,41 +6,50 @@
     </linearGradient>
   </defs>
   <style>
-    .mono { font-family: 'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace; }
-    .p  { fill: #9ece6a; }
-    .c  { fill: #c0caf5; }
-    .dim{ fill: #565f89; }
-    .b  { fill: #7aa2f7; }
-    .v  { fill: #bb9af7; }
-    .o  { fill: #e0af68; }
-    .t  { clip-path: inset(0 100% 0 0); animation: type .9s steps(28, end) forwards; }
-    .f  { opacity: 0; animation: show .3s ease-out forwards; }
-    .l1 { animation-delay: .3s }  .l2 { animation-delay: 1.3s }
-    .l3 { animation-delay: 2.1s } .l4 { animation-delay: 3.0s }
-    .l5 { animation-delay: 3.8s } .l6 { animation-delay: 4.7s }
-    .cur { animation: blink 1s step-end infinite; }
-    @keyframes type { to { clip-path: inset(0 0 0 0); } }
-    @keyframes show { to { opacity: 1; } }
-    @keyframes blink { 50% { opacity: 0; } }
-    @media (prefers-reduced-motion: reduce) {
-      .t { animation: none; clip-path: none; } .f { animation: none; opacity: 1; } .cur { animation: none; }
-    }
+    text { font-family: 'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace; }
+    .p { fill: #9ece6a; } .c { fill: #c0caf5; } .dim { fill: #565f89; }
+    .b { fill: #7aa2f7; } .v { fill: #bb9af7; } .o { fill: #e0af68; }
   </style>
+
+  <!-- relógio invisível que reinicia a animação a cada 12s -->
+  <rect width="0" height="0"><animate id="cycle" attributeName="x" from="0" to="0" dur="12s" begin="0s;cycle.end"/></rect>
 
   <rect x="1" y="1" width="998" height="298" rx="14" fill="#1a1b26" stroke="url(#edge)" stroke-width="2"/>
   <path d="M1 15 a14 14 0 0 1 14 -14 h970 a14 14 0 0 1 14 14 v27 H1 z" fill="#16161e"/>
   <circle cx="26" cy="22" r="6" fill="#f7768e"/>
   <circle cx="46" cy="22" r="6" fill="#e0af68"/>
   <circle cx="66" cy="22" r="6" fill="#9ece6a"/>
-  <text x="500" y="27" text-anchor="middle" class="mono dim" font-size="13">cr4ni0@imex: ~</text>
+  <text x="500" y="27" text-anchor="middle" class="dim" font-size="13">cr4ni0@imex: ~</text>
 
-  <g class="mono" font-size="20">
-    <text x="36" y="86" class="t l1"><tspan class="p">cr4ni0@imex</tspan><tspan class="dim">:</tspan><tspan class="b">~</tspan><tspan class="c">$ whoami</tspan></text>
-    <text x="36" y="134" class="f l2" font-size="40" font-weight="700"><tspan class="c">Cassiano Soares</tspan></text>
-    <text x="36" y="166" class="f l2" font-size="19"><tspan class="v">Desenvolvedor Full Stack</tspan><tspan class="dim">  ·  </tspan><tspan class="b">Infraestrutura</tspan><tspan class="dim">  ·  </tspan><tspan class="o">IA</tspan></text>
-    <text x="36" y="214" class="t l3"><tspan class="p">cr4ni0@imex</tspan><tspan class="dim">:</tspan><tspan class="b">~</tspan><tspan class="c">$ cat stack.txt</tspan></text>
-    <text x="36" y="244" class="f l4" font-size="18"><tspan class="c">python  django  laravel  react  linux</tspan></text>
-    <text x="36" y="280" class="t l5" font-size="18"><tspan class="p">cr4ni0@imex</tspan><tspan class="dim">:</tspan><tspan class="b">~</tspan><tspan class="c">$ </tspan></text>
-    <g class="f l6"><rect x="200" y="265" width="11" height="20" fill="#c0caf5" class="cur"/></g>
-  </g>
+  <clipPath id="l1"><rect x="36" y="66" height="30.0" width="0">
+    <set attributeName="width" to="0" begin="cycle.begin"/>
+    <animate attributeName="width" values="0.0;12.0;24.0;36.0;48.0;60.0;72.0;84.0;96.0;108.0;120.0;132.0;144.0;156.0;168.0;180.0;192.0;204.0;216.0;228.0;240.0;252.0" calcMode="discrete" dur="1.26s" begin="cycle.begin+0.4s" fill="freeze"/>
+  </rect></clipPath>
+  <text x="36" y="86" font-size="20" clip-path="url(#l1)"><tspan class="p">cr4ni0@imex</tspan><tspan class="dim">:</tspan><tspan class="b">~</tspan><tspan class="c">$ whoami</tspan></text>
+  <text x="36" y="134" font-size="40" opacity="0" font-weight="700"><tspan class="c">Cassiano Soares</tspan>
+    <set attributeName="opacity" to="0" begin="cycle.begin"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="cycle.begin+2.0s" fill="freeze"/>
+  </text>
+  <text x="36" y="166" font-size="19" opacity="0"><tspan class="v">Desenvolvedor Full Stack</tspan><tspan class="dim">  ·  </tspan><tspan class="b">Infraestrutura</tspan><tspan class="dim">  ·  </tspan><tspan class="o">IA</tspan>
+    <set attributeName="opacity" to="0" begin="cycle.begin"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="cycle.begin+2.3s" fill="freeze"/>
+  </text>
+  <clipPath id="l3"><rect x="36" y="194" height="30.0" width="0">
+    <set attributeName="width" to="0" begin="cycle.begin"/>
+    <animate attributeName="width" values="0.0;12.0;24.0;36.0;48.0;60.0;72.0;84.0;96.0;108.0;120.0;132.0;144.0;156.0;168.0;180.0;192.0;204.0;216.0;228.0;240.0;252.0;264.0;276.0;288.0;300.0;312.0;324.0;336.0;348.0" calcMode="discrete" dur="1.74s" begin="cycle.begin+3.3s" fill="freeze"/>
+  </rect></clipPath>
+  <text x="36" y="214" font-size="20" clip-path="url(#l3)"><tspan class="p">cr4ni0@imex</tspan><tspan class="dim">:</tspan><tspan class="b">~</tspan><tspan class="c">$ cat stack.txt</tspan></text>
+  <clipPath id="l4"><rect x="36" y="226" height="27.0" width="0">
+    <set attributeName="width" to="0" begin="cycle.begin"/>
+    <animate attributeName="width" values="0.0;10.8;21.6;32.4;43.2;54.0;64.8;75.6;86.4;97.2;108.0;118.8;129.6;140.4;151.2;162.0;172.8;183.6;194.4;205.2;216.0;226.8;237.6;248.4;259.2;270.0;280.8;291.6;302.4;313.2;324.0;334.8;345.6;356.4;367.2;378.0;388.8;399.6" calcMode="discrete" dur="2.22s" begin="cycle.begin+5.4s" fill="freeze"/>
+  </rect></clipPath>
+  <text x="36" y="244" font-size="18" clip-path="url(#l4)"><tspan class="c">python  django  laravel  react  linux</tspan></text>
+  <text x="36" y="280" font-size="18" opacity="0"><tspan class="p">cr4ni0@imex</tspan><tspan class="dim">:</tspan><tspan class="b">~</tspan><tspan class="c">$ </tspan>
+    <set attributeName="opacity" to="0" begin="cycle.begin"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="cycle.begin+8.0s" fill="freeze"/>
+  </text>
+
+  <rect x="200" y="265" width="11" height="20" fill="#c0caf5">
+    <animate attributeName="opacity" values="1;0" calcMode="discrete" dur="1s" repeatCount="indefinite"/>
+  </rect>
 </svg>
