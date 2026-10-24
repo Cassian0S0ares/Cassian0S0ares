@@ -1,13 +1,6 @@
-<!-- Banner -->
+<!-- Header -->
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:7aa2f7,100:bb9af7&height=200&section=header&text=Cassiano%20Soares&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Desenvolvedor%20Full%20Stack%20%E2%80%A2%20Infraestrutura%20%E2%80%A2%20IA&descAlignY=58&descSize=18&animation=fadeIn" />
-</p>
-
-<!-- Typing -->
-<p align="center">
-  <a href="https://github.com/Cassian0S0ares">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=7AA2F7&center=true&vCenter=true&width=620&lines=Desenvolvedor+Full+Stack+J%C3%BAnior;Sistemas+web+e+automa%C3%A7%C3%A3o+de+processos;Python+%E2%80%A2+Django+%E2%80%A2+Laravel+%E2%80%A2+React;Infraestrutura+e+integra%C3%A7%C3%A3o+com+IA" alt="Typing SVG" />
-  </a>
+  <img src="./assets/header.svg" width="100%" alt="Terminal: whoami → Cassiano Soares, Desenvolvedor Full Stack · Infraestrutura · IA" />
 </p>
 
 <!-- Contatos -->

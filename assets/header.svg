@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="Terminal: whoami — Cassiano Soares, Desenvolvedor Full Stack">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7aa2f7"/>
+      <stop offset="1" stop-color="#bb9af7"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace; }
+    .p  { fill: #9ece6a; }
+    .c  { fill: #c0caf5; }
+    .dim{ fill: #565f89; }
+    .b  { fill: #7aa2f7; }
+    .v  { fill: #bb9af7; }
+    .o  { fill: #e0af68; }
+    .t  { clip-path: inset(0 100% 0 0); animation: type .9s steps(28, end) forwards; }
+    .f  { opacity: 0; animation: show .3s ease-out forwards; }
+    .l1 { animation-delay: .3s }  .l2 { animation-delay: 1.3s }
+    .l3 { animation-delay: 2.1s } .l4 { animation-delay: 3.0s }
+    .l5 { animation-delay: 3.8s } .l6 { animation-delay: 4.7s }
+    .cur { animation: blink 1s step-end infinite; }
+    @keyframes type { to { clip-path: inset(0 0 0 0); } }
+    @keyframes show { to { opacity: 1; } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .t { animation: none; clip-path: none; } .f { animation: none; opacity: 1; } .cur { animation: none; }
+    }
+  </style>
+
+  <rect x="1" y="1" width="998" height="298" rx="14" fill="#1a1b26" stroke="url(#edge)" stroke-width="2"/>
+  <path d="M1 15 a14 14 0 0 1 14 -14 h970 a14 14 0 0 1 14 14 v27 H1 z" fill="#16161e"/>
+  <circle cx="26" cy="22" r="6" fill="#f7768e"/>
+  <circle cx="46" cy="22" r="6" fill="#e0af68"/>
+  <circle cx="66" cy="22" r="6" fill="#9ece6a"/>
+  <text x="500" y="27" text-anchor="middle" class="mono dim" font-size="13">cr4ni0@imex: ~</text>
+
+  <g class="mono" font-size="20">
+    <text x="36" y="86" class="t l1"><tspan class="p">cr4ni0@imex</tspan><tspan class="dim">:</tspan><tspan class="b">~</tspan><tspan class="c">$ whoami</tspan></text>
+    <text x="36" y="134" class="f l2" font-size="40" font-weight="700"><tspan class="c">Cassiano Soares</tspan></text>
+    <text x="36" y="166" class="f l2" font-size="19"><tspan class="v">Desenvolvedor Full Stack</tspan><tspan class="dim">  ·  </tspan><tspan class="b">Infraestrutura</tspan><tspan class="dim">  ·  </tspan><tspan class="o">IA</tspan></text>
+    <text x="36" y="214" class="t l3"><tspan class="p">cr4ni0@imex</tspan><tspan class="dim">:</tspan><tspan class="b">~</tspan><tspan class="c">$ cat stack.txt</tspan></text>
+    <text x="36" y="244" class="f l4" font-size="18"><tspan class="c">python  django  laravel  react  linux</tspan></text>
+    <text x="36" y="280" class="t l5" font-size="18"><tspan class="p">cr4ni0@imex</tspan><tspan class="dim">:</tspan><tspan class="b">~</tspan><tspan class="c">$ </tspan></text>
+    <g class="f l6"><rect x="200" y="265" width="11" height="20" fill="#c0caf5" class="cur"/></g>
+  </g>
+</svg>
