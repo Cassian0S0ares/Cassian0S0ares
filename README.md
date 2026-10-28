@@ -108,7 +108,6 @@ Tenho experiência prática em todo o ciclo de desenvolvimento de software, da m
       <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" />
       <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
       <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" />
-      &nbsp;&nbsp;<a href="https://dgconsultoriasst.com/"><img src="https://img.shields.io/badge/🌐_Acessar_site-0d1117?style=for-the-badge" /></a>
     </td>
   </tr>
 </table>

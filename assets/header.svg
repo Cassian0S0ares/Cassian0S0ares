@@ -14,12 +14,20 @@
   <!-- relógio invisível que dispara a animação uma única vez -->
   <rect width="0" height="0"><animate id="cycle" attributeName="x" from="0" to="0" dur="12s" begin="0s"/></rect>
 
-  <rect x="1" y="1" width="998" height="298" rx="14" fill="#1a1b26" stroke="url(#edge)" stroke-width="2"/>
-  <path d="M1 15 a14 14 0 0 1 14 -14 h970 a14 14 0 0 1 14 14 v27 H1 z" fill="#16161e"/>
-  <circle cx="26" cy="22" r="6" fill="#f7768e"/>
-  <circle cx="46" cy="22" r="6" fill="#e0af68"/>
-  <circle cx="66" cy="22" r="6" fill="#9ece6a"/>
-  <text x="500" y="27" text-anchor="middle" class="dim" font-size="13">cr4ni0: ~</text>
+  <!-- janela no estilo GNOME Terminal (Linux): cantos superiores arredondados, controles à direita -->
+  <path d="M9 1 h982 a8 8 0 0 1 8 8 v290 H1 V9 a8 8 0 0 1 8 -8 z" fill="#1a1b26" stroke="url(#edge)" stroke-width="2"/>
+  <path d="M9 2 h982 a7 7 0 0 1 7 7 v31 H2 V9 a7 7 0 0 1 7 -7 z" fill="#24283b"/>
+  <line x1="2" y1="40" x2="998" y2="40" stroke="#16161e" stroke-width="1"/>
+  <text x="500" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#c0caf5">cr4ni0: ~</text>
+  <!-- minimizar, maximizar, fechar -->
+  <g stroke="#c0caf5" stroke-width="1.6" stroke-linecap="round" fill="none">
+    <circle cx="924" cy="21" r="10" fill="#2f3549" stroke="none"/>
+    <line x1="919" y1="21" x2="929" y2="21"/>
+    <circle cx="950" cy="21" r="10" fill="#2f3549" stroke="none"/>
+    <rect x="945.5" y="16.5" width="9" height="9" rx="1"/>
+    <circle cx="976" cy="21" r="10" fill="#e95420" stroke="none"/>
+    <line x1="972" y1="17" x2="980" y2="25" stroke="#ffffff"/><line x1="980" y1="17" x2="972" y2="25" stroke="#ffffff"/>
+  </g>
 
   <clipPath id="l1"><rect x="36" y="66" height="30.0" width="0">
     <set attributeName="width" to="0" begin="cycle.begin"/>
