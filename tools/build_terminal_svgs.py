@@ -1,20 +1,18 @@
 """Aplica o efeito "terminal digitando" nos SVGs de ./assets.
 
 - 01_header.svg: digita `whoami`, a saida aparece linha a linha e a caveirinha
-  cruza os bracos em X no meio do ciclo (quadros extras em tools/x_frames/).
+  continua digitando (16 quadros originais).
 - 02..09: ganham uma barra de prompt no topo onde o comando e digitado; o
   conteudo da secao e a "saida" e aparece linha a linha logo depois.
 
 Idempotente: arquivos que ja tem o marcador TYPED-TERMINAL sao ignorados.
 Uso: python tools/build_terminal_svgs.py
 """
-import base64
 import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 ASSETS = ROOT / 'assets'
-XFRAMES = Path(__file__).resolve().parent / 'x_frames'
 MARK = '<!-- TYPED-TERMINAL -->'
 
 BAR_H = 40
@@ -94,41 +92,7 @@ def header():
         print('skip', name)
         return
     C = 14.4
-    STEP = 0.12
     p = lambda t: pct(t, C)
-
-    # ---- sequencia de quadros: digitando -> X -> digitando ----
-    imgs = re.findall(r'xlink:href="(data:image/png;base64,[A-Za-z0-9+/=]+)"', s)
-    assert len(imgs) == 16
-    for k in ('x00', 'x01', 'x02'):
-        b = base64.b64encode((XFRAMES / f'{k}.png').read_bytes()).decode()
-        imgs.append('data:image/png;base64,' + b)
-    X0, X1, X2 = 16, 17, 18
-    seq = [i % 16 for i in range(48)] + [X0] * 2 + [X1] * 2 + [X2] * 34 + [X1] * 2 + [X0] * 2
-    seq += [i % 16 for i in range(120 - len(seq))]
-    assert len(seq) == 120
-    runs = {i: [] for i in range(len(imgs))}
-    for pos, f in enumerate(seq):
-        if runs[f] and runs[f][-1][1] == pos:
-            runs[f][-1][1] = pos + 1
-        else:
-            runs[f].append([pos, pos + 1])
-    kf, rules, tags = [], [], []
-    for i, rs in runs.items():
-        frames = []
-        for a, b in rs:
-            frames.append(f'{p(a * STEP)}%{{opacity:1}}{p(b * STEP)}%{{opacity:0}}')
-        first = rs[0][0]
-        pre = '0%{opacity:0}' if first else ''
-        kf.append(f'@keyframes k{i}{{{pre}{"".join(frames)}100%{{opacity:0}}}}')
-        rules.append(f'.k{i}{{opacity:0;animation:k{i} {C}s step-end infinite}}')
-        tags.append(f'<image class="k{i}" x="0" y="0" width="314" height="314" image-rendering="pixelated" xlink:href="{imgs[i]}"/>')
-    # o quadro 0 comeca visivel
-    inner = (f'<svg x="754" y="66" width="314" height="314" viewBox="0 0 314 314" overflow="visible" image-rendering="pixelated">'
-             f'<style><![CDATA[{"".join(rules)}{"".join(kf)}]]></style>' + '\n'.join(tags) + '</svg>')
-    a = s.index('<svg x="754"')
-    b = s.index('</svg>', a) + len('</svg>')
-    s = s[:a] + inner + s[b:]
 
     # ---- terminal: whoami digitado + saida linha a linha ----
     cw = 13.2
@@ -168,7 +132,6 @@ def header():
     wrap(r'<text x="61" y="314"[^>]*>FULL STACK[^<]*</text>', 2)
     for idx, x in zip((3, 4, 5, 6), (61, 179, 299, 403)):
         wrap(rf'<rect x="{x}" y="334"[^>]*/><text[^>]*>[A-Z]+</text>', idx)
-    s = s.replace('ORIGINAL · 16 FRAMES', 'LIVE CODING · 19 FRAMES')
     path.write_text(mark(s), encoding='utf8')
     print('ok', name)
 
