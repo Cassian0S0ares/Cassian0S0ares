@@ -20,4 +20,4 @@
 </p>
 <p align="center">
   <img width="100%" src="./assets/stats_snake.svg" alt="Animação de cobra mostrando contribuições do GitHub" />
-</p><p align="center"><img width="100%" src="./assets/08_formacao_v2.svg" alt="Formação: graduando em Análise e Desenvolvimento de Sistemas na Faculdade SENAI Taubaté e técnico em Desenvolvimento de Sistemas pelo SENAI Cruzeiro." /></p><p align="center"><img width="100%" src="./assets/09_footer_v2.svg" alt="Obrigado pela visita; disponível para oportunidades, projetos e parcerias." /></p>
+</p><p align="center"><img width="100%" src="./assets/08_formacao_v3.svg" alt="Formação: graduando em Análise e Desenvolvimento de Sistemas na Faculdade SENAI Taubaté e técnico em Desenvolvimento de Sistemas pelo SENAI Cruzeiro." /></p><p align="center"><img width="100%" src="./assets/09_footer_v2.svg" alt="Obrigado pela visita; disponível para oportunidades, projetos e parcerias." /></p>
