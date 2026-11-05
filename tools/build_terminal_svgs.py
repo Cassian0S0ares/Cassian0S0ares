@@ -20,14 +20,14 @@ CHAR_W = 10.8  # largura fixa por caractere (textLength) para o clip casar com a
 CYCLE = 10.0
 
 COMMANDS = {
-    '02_sobre.svg': 'cat sobre.md',
-    '03_experiencia.svg': 'git log --oneline experiencia',
-    '04_tecnologias.svg': 'ls ~/tecnologias',
-    '05_projetos.svg': 'ls -la ~/projetos',
-    '06_certificacoes.svg': 'cat certificacoes.txt',
-    '07_estatisticas.svg': 'gh api user --stats',
-    '08_formacao.svg': 'cat formacao.md',
-    '09_footer.svg': 'echo "obrigado pela visita"',
+    '02_sobre_v2.svg': 'cat sobre.md',
+    '03_experiencia_v2.svg': 'git log --oneline experiencia',
+    '04_tecnologias_v2.svg': 'ls ~/tecnologias',
+    '05_projetos_v2.svg': 'ls -la ~/projetos',
+    '06_certificacoes_v2.svg': 'cat certificacoes.txt',
+    '07_estatisticas_v2.svg': 'gh api user --stats',
+    '08_formacao_v2.svg': 'cat formacao.md',
+    '09_footer_v2.svg': 'echo "obrigado pela visita"',
 }
 
 
@@ -85,7 +85,7 @@ def section(name, command):
 
 
 def header():
-    name = '01_header.svg'
+    name = '01_header_v2.svg'
     path = ASSETS / name
     s = path.read_text(encoding='utf8')
     if MARK in s:
