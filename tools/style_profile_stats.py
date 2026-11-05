@@ -46,11 +46,22 @@ def main():
     parser.add_argument('--snake', type=Path)
     args = parser.parse_args()
     if args.snake:
-        # Keep the original SVG timeline and paths inside the decorative frame.
-        svg = frame('CONTRIBUIÇÕES / SNAKE', 'Histórico de contribuições animado', 310,
-                    embed(args.snake, 50, 72, 1000, 210))
+        # Preserve the actual contribution cells, paths and animation timeline.
+        board = embed(args.snake, 50, 68, 1000, 218)
+        board = board.replace('<svg ', '<svg class="snake-board" ', 1)
+        colors = ('--cb:#30466d;--cs:#ff62c7;--ce:#14213d;--c0:#14213d;'
+                  '--c1:#20425c;--c2:#237b8e;--c3:#34becd;--c4:#84ffcf')
+        board = re.sub(r':root\{[^}]*\}', '.snake-board{' + colors + '}', board, count=1)
+        legend = '<g font-family="Consolas,DejaVu Sans Mono,monospace" font-size="12" fill="#a5b8d8">'
+        legend += '<text x="52" y="311">&gt; CONSUMINDO COMMITS...</text><text x="800" y="311">MENOS</text>'
+        for i, color in enumerate(['#14213d', '#20425c', '#237b8e', '#34becd', '#84ffcf']):
+            legend += f'<rect x="{852+i*25}" y="299" width="16" height="16" rx="3" fill="{color}" stroke="#30466d"/>'
+        legend += '<text x="991" y="311">MAIS</text></g>'
+        svg = frame('CONTRIBUIÇÕES / SNAKE', 'Cobra animada percorrendo contribuições reais do GitHub',
+                    350, board + legend)
         ET.fromstring(svg)
         args.snake.write_text(svg + '\n')
+        write('stats_snake.svg', svg)
         return
     write('stats_activity.svg', frame('ATIVIDADE / LINGUAGENS', 'Estatísticas e linguagens atualizadas diariamente', 380,
           embed(SOURCE / '3-stats.svg', 50, 66, 490, 288) +
