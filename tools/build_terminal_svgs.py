@@ -1,11 +1,10 @@
-"""Aplica o efeito "terminal digitando" nos SVGs de ./assets.
+"""Aplica o efeito "terminal digitando" no cabecalho (assets/01_header_v2.svg).
 
-- 01_header.svg: digita `whoami`, a saida aparece linha a linha e a caveirinha
-  continua digitando (16 quadros originais).
-- 02..09: ganham uma barra de prompt no topo onde o comando e digitado; o
-  conteudo da secao e a "saida" e aparece linha a linha logo depois.
+`whoami` e digitado uma unica vez, a saida aparece linha a linha e o terminal
+fica parado no final (sem reiniciar). A caveirinha segue com os 16 quadros
+originais. As demais secoes ficam como o original, sem efeito.
 
-Idempotente: arquivos que ja tem o marcador TYPED-TERMINAL sao ignorados.
+Idempotente: arquivo que ja tem o marcador TYPED-TERMINAL e ignorado.
 Uso: python tools/build_terminal_svgs.py
 """
 import re
@@ -15,20 +14,6 @@ ROOT = Path(__file__).resolve().parent.parent
 ASSETS = ROOT / 'assets'
 MARK = '<!-- TYPED-TERMINAL -->'
 
-BAR_H = 40
-CHAR_W = 10.8  # largura fixa por caractere (textLength) para o clip casar com a fonte
-CYCLE = 10.0
-
-COMMANDS = {
-    '02_sobre_v2.svg': 'cat sobre.md',
-    '03_experiencia_v2.svg': 'git log --oneline experiencia',
-    '04_tecnologias_v2.svg': 'ls ~/tecnologias',
-    '05_projetos_v2.svg': 'ls -la ~/projetos',
-    '06_certificacoes_v2.svg': 'cat certificacoes.txt',
-    '07_estatisticas_v2.svg': 'gh api user --stats',
-    '08_formacao_v2.svg': 'cat formacao.md',
-    '09_footer_v2.svg': 'echo "obrigado pela visita"',
-}
 
 
 def mark(s):
@@ -40,50 +25,6 @@ def pct(t, total):
     return round(t / total * 100, 3)
 
 
-def section(name, command):
-    path = ASSETS / name
-    s = path.read_text(encoding='utf8')
-    if MARK in s:
-        print('skip', name)
-        return
-    m = re.search(r'viewBox="0 0 (\d+) (\d+)" width="\d+" height="\d+"', s)
-    w, h = int(m.group(1)), int(m.group(2))
-    s = s.replace(m.group(0), f'viewBox="0 0 {w} {h + BAR_H}" width="{w}" height="{h + BAR_H}"', 1)
-
-    n = len(command)
-    tw = n * CHAR_W
-    prompt = 'visitor@neon-tokyo'
-    px = 34
-    cmd_x = px + (len(prompt) + 4) * CHAR_W  # ":~$ " = 4 chars
-    t_type0 = 0.5
-    t_type1 = t_type0 + max(1.0, n * 0.07)
-    t_out0 = t_type1 + 0.35
-    t_out1 = t_out0 + 1.3
-    t_clear = CYCLE - 0.7
-    p = lambda t: pct(t, CYCLE)
-
-    css = f'''
-    .tclip{{transform-box:fill-box;transform-origin:left center;animation:tclip {CYCLE}s steps({n},end) infinite}}
-    .tcur{{animation:tcur {CYCLE}s steps({n},end) infinite}}
-    .cur{{animation:blink .9s steps(2,end) infinite}}
-    .oclip{{transform-box:fill-box;transform-origin:center top;animation:oclip {CYCLE}s steps(18,end) infinite}}
-    @keyframes tclip{{0%,{p(t_type0)}%{{transform:scaleX(0)}}{p(t_type1)}%,{p(t_clear)}%{{transform:scaleX(1)}}{p(t_clear + .01)}%,100%{{transform:scaleX(0)}}}}
-    @keyframes tcur{{0%,{p(t_type0)}%{{transform:translateX(0)}}{p(t_type1)}%,{p(t_clear)}%{{transform:translateX({tw}px)}}{p(t_clear + .01)}%,100%{{transform:translateX(0)}}}}
-    @keyframes oclip{{0%,{p(t_out0)}%{{transform:scaleY(0)}}{p(t_out1)}%,{p(t_clear)}%{{transform:scaleY(1)}}{p(t_clear + .01)}%,100%{{transform:scaleY(0)}}}}
-    '''
-    head, rest = s.split(']]></style>', 1)
-    body, tail = rest.rsplit('</svg>', 1)
-    bar = f'''<defs><clipPath id="tc"><rect class="tclip" x="{cmd_x - 1}" y="8" width="{tw + 2}" height="26"/></clipPath><clipPath id="oc"><rect class="oclip" x="0" y="0" width="{w}" height="{h}"/></clipPath></defs>
-    <rect x="0" y="0" width="{w}" height="{BAR_H}" fill="#0b122b"/><rect x="0" y="{BAR_H - 2}" width="{w}" height="2" fill="#53f2fb" opacity=".35"/>
-    <text x="{px}" y="27" fill="#84ffcf" font-size="18" font-weight="700" textLength="{len(prompt) * CHAR_W}" lengthAdjust="spacing">{prompt}</text><text x="{px + len(prompt) * CHAR_W}" y="27" fill="#53f2fb" font-size="18" font-weight="700" xml:space="preserve">:~$</text>
-    <g clip-path="url(#tc)"><text x="{cmd_x}" y="27" fill="#edf6ff" font-size="18" font-weight="700" textLength="{tw}" lengthAdjust="spacing" xml:space="preserve">{command.replace('&', '&amp;')}</text></g>
-    <g class="tcur"><rect class="cur" x="{cmd_x}" y="10" width="9" height="20" fill="#84ffcf"/></g>
-    <g transform="translate(0,{BAR_H})"><g clip-path="url(#oc)">'''
-    s = f'{head}{css}]]></style>{bar}{body}</g></g></svg>{tail}'
-    path.write_text(mark(s), encoding='utf8')
-    print('ok', name)
-
-
 def header():
     name = '01_header_v2.svg'
     path = ASSETS / name
@@ -91,7 +32,7 @@ def header():
     if MARK in s:
         print('skip', name)
         return
-    C = 14.4
+    C = 4.0
     p = lambda t: pct(t, C)
 
     # ---- terminal: whoami digitado + saida linha a linha ----
@@ -100,17 +41,16 @@ def header():
     wd = 'whoami'
     tw = len(wd) * cw
     t0, t1 = 0.6, 1.5
-    clear = C - 0.6
     outs = [1.9, 2.3, 2.7, 3.0, 3.2, 3.4, 3.6]
     css = f'''
-    .tclip{{transform-box:fill-box;transform-origin:left center;animation:tclip {C}s steps({len(wd)},end) infinite}}
-    .tcur{{animation:tcur {C}s steps({len(wd)},end) infinite}}
+    .tclip{{transform-box:fill-box;transform-origin:left center;animation:tclip {C}s steps({len(wd)},end) 1 forwards}}
+    .tcur{{animation:tcur {C}s steps({len(wd)},end) 1 forwards}}
     .cur{{animation:blink .9s steps(2,end) infinite}}
-    @keyframes tclip{{0%,{p(t0)}%{{transform:scaleX(0)}}{p(t1)}%,{p(clear)}%{{transform:scaleX(1)}}{p(clear + .01)}%,100%{{transform:scaleX(0)}}}}
-    @keyframes tcur{{0%,{p(t0)}%{{transform:translateX(0)}}{p(t1)}%,{p(clear)}%{{transform:translateX({tw}px)}}{p(clear + .01)}%,100%{{transform:translateX(0)}}}}
+    @keyframes tclip{{0%,{p(t0)}%{{transform:scaleX(0)}}{p(t1)}%,100%{{transform:scaleX(1)}}}}
+    @keyframes tcur{{0%,{p(t0)}%{{transform:translateX(0)}}{p(t1)}%,100%{{transform:translateX({tw}px)}}}}
     '''
     for i, t in enumerate(outs):
-        css += f'.o{i}{{opacity:0;animation:o{i} {C}s step-end infinite}}@keyframes o{i}{{0%{{opacity:0}}{p(t)}%{{opacity:1}}{p(clear)}%{{opacity:0}}100%{{opacity:0}}}}\n    '
+        css += f'.o{i}{{opacity:0;animation:o{i} {C}s step-end 1 forwards}}@keyframes o{i}{{0%{{opacity:0}}{p(t)}%,100%{{opacity:1}}}}' + chr(10) + '    '
     head, rest = s.split(']]></style>', 1)
     s = head + css + ']]></style>' + rest
 
@@ -139,5 +79,3 @@ def header():
 
 if __name__ == '__main__':
     header()
-    for n, c in COMMANDS.items():
-        section(n, c)
