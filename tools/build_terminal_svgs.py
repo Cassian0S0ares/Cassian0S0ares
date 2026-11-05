@@ -132,6 +132,7 @@ def header():
     wrap(r'<text x="61" y="314"[^>]*>FULL STACK[^<]*</text>', 2)
     for idx, x in zip((3, 4, 5, 6), (61, 179, 299, 403)):
         wrap(rf'<rect x="{x}" y="334"[^>]*/><text[^>]*>[A-Z]+</text>', idx)
+    s = re.sub(r'<text x="528" y="354"[^>]*>ORIGINAL[^<]*</text>', '', s)
     path.write_text(mark(s), encoding='utf8')
     print('ok', name)
 
